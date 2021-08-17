@@ -1,0 +1,15 @@
+/* To set a common style for the headers of all pages */
+
+.flex-header{
+  display : flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.menu-items{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-grow: 1
+
+}
