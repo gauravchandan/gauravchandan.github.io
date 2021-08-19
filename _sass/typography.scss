@@ -2,6 +2,10 @@
 .grid-header .site-name{
     font-size: 1.2vw;
     color: whitesmoke;
+    box-shadow: 0 2vh 3vh rgba(0, 0, 0, 0.603);
+    height: auto;
+    margin: 0;
+    padding: 1vh;
 }
 /* To be used for the page title, i.e About or Welcome or Home, etc */
 .grid-header .page-title{
