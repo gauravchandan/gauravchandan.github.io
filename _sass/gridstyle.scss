@@ -44,7 +44,7 @@
 
 /* To be used for the page title, i.e About or Welcome or Home, etc */
 .grid-header .page-title{
-    animation: pulse 1s ease 1; /* Animation for slow fade in */
+    animation: pulse 1.5s ease 1; /* Animation for slow fade in */
     /* Configuration of animation below */
     @keyframes pulse {
         0%{
@@ -60,7 +60,7 @@
 .grid-header .page-subtitle{
     margin-left: 5vw;
     margin-right: 5vw;
-    animation: pulse 2s ease 1; /* Animation for slow fade in */
+    animation: pulse 3s ease 1; /* Animation for slow fade in */
     /* Configuration of animation below */
     @keyframes pulse {
         0%{
