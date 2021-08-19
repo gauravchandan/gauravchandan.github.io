@@ -1,3 +1,5 @@
+/* This file contains styles for various grid elements */
+
 /* Grid item for header which contains site title, dropdown menu, page title and page subtitle*/
 .grid-header{
     grid-area: header;
@@ -28,9 +30,5 @@
         "header header header"
         ". content ."
         "footer footer footer";
-    margin: 0;
-}
-
-.grid-header h1{
-    font-size: 2vh;
+    margin: 0;  /* This awesome line removes the free space automatically left on the top and sides of the grid */
 }

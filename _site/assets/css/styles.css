@@ -1,0 +1,23 @@
+/* This file contains styles for various grid elements */
+/* Grid item for header which contains site title, dropdown menu, page title and page subtitle*/
+.grid-header { grid-area: header; background-color: #026796; color: whitesmoke; }
+
+/* Grid item which contains the main content such as the matter of a blog post or a list of blog posts on the homepage */
+.grid-content { grid-area: content; background-color: white; color: black; }
+
+/* Grid item for footer which contains social media links and whatnot*/
+.grid-footer { grid-area: footer; background-color: #c43907; color: whitesmoke; }
+
+/* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
+.grid-container { display: grid; grid-template-columns: [left-space] 15vw [content-space] 70vw [right-space] 15vw; grid-template-areas: "header header header" ". content ." "footer footer footer"; margin: 0; /* This awesome line removes the free space automatically left on the top and sides of the grid */ }
+
+/* To be used for the site title, i.e Gaurav Chandan */
+.grid-header .site-name { font-size: 2.5vh; }
+
+/* To be used for the page title, i.e About or Welcome or Home, etc */
+.grid-header .page-title { font-size: 4.5vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ }
+
+/* To be used for page subtitle, for example a prologue type thingy for blog posts */
+.grid-header .page-subtitle { margin-left: 5vw; margin-right: 5vw; word-wrap: break-word; font-size: 2vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ }
+
+/*# sourceMappingURL=styles.css.map */
