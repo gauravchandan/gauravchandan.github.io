@@ -23,13 +23,14 @@
 
 .grid-container{
     display: grid;
-    grid-template-columns: [left-space] 15vw [content-space] 70vw [right-space]14vw;
+    grid-template-columns: [left-space] 15vw [content-space] 70vw [right-space] 15vw;
     grid-template-areas: 
         "header header header"
         ". content ."
         "footer footer footer";
+    margin: 0;
 }
 
 .grid-header h1{
-    font-size: 5vh;
+    font-size: 4vh;
 }
