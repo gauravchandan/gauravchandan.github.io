@@ -1,0 +1,40 @@
+--- 
+---
+
+
+
+/* Grid item for header which contains site title, dropdown menu, page title and page subtitle*/
+.grid-header{
+    grid-area: header;
+    background-color: rgb(2, 103, 150);
+    color: whitesmoke;
+}
+
+/* Grid item which contains the main content such as the matter of a blog post or a list of blog posts on the homepage */
+.grid-content{
+    grid-area: content;
+    background-color: white;
+    color: black;
+}
+
+/* Grid item for footer which contains social media links and whatnot*/
+.grid-footer{
+    grid-area: footer;
+    background-color: rgb(196, 57, 7);
+    color: whitesmoke;
+}
+
+/* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: [left-space] 15vw [content-space] 70vw [right-space]14vw;
+    grid-template-areas: 
+        "header header header"
+        ". content ."
+        "footer footer footer";
+}
+
+.grid-header h1{
+    font-size: 5vh;
+}
