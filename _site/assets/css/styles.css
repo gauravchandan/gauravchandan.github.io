@@ -37,7 +37,7 @@
 
 .feed-image { grid-area: image; }
 
-.feed-image img { width: 50%; }
+.feed-image img { width: 60%; }
 
 .feed-description { grid-area: description; }
 
@@ -56,13 +56,17 @@ a { text-decoration: none; color: inherit; }
 
 .grid-content h1 { color: #026796; font-size: 3vh; }
 
-.grid-content { font-size: 2vh; }
+.grid-content { font-size: 2vmin; }
 
 .posting-date { color: dimgray; }
 
-.tags-list { color: dimgray; font-size: 1.5vh; }
+.tags-list { color: dimgray; font-size: 1.5vmin; }
 
 .image-credit { color: dimgray; font-size: 1.5vh; }
+
+.feed-title { font-size: 3vmin; }
+
+.feed-description { font-size: 2vmin; }
 
 /* Default Layout */
 /* To be used for the site title, i.e Gaurav Chandan */

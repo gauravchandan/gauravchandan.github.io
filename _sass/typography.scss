@@ -34,7 +34,7 @@ a{
 }
 
 .grid-content {
-    font-size: 2vh;
+    font-size: 2vmin;
 }
 
 .posting-date{
@@ -43,7 +43,7 @@ a{
 
 .tags-list{
     color: $dim-gray;
-    font-size: 1.5vh;
+    font-size: 1.5vmin;
 }
 
 .image-credit{
@@ -51,10 +51,13 @@ a{
     font-size: 1.5vh;
 }
 
+.feed-title{
+    font-size: 3vmin;
+}
 
-
-
-
+.feed-description{
+    font-size: 2vmin;
+}
 
 
 
