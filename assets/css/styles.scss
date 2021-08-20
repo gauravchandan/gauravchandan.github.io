@@ -1,6 +1,10 @@
 --- 
 ---
 
-@import "gridstyle";
-@import "typography";
+@import "gridstyle-desktop";
+@import "typography-desktop";
+
+@import "gridstyle-mobile";
+@import "typography-mobile";
+
 @import "dropdown";

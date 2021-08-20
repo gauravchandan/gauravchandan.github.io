@@ -1,0 +1,62 @@
+@import "colors"; /* To use colors from colors.scss - Helps keep code clean */
+
+@media screen and (max-width:600px) {
+
+    /* To be used for the site title, i.e Gaurav Chandan */
+    .grid-header .site-name{
+        font-size: 1.5vmax;                               /* 1.2vw */
+        font-family: 'Orbitron', sans-serif;
+        color: $site-name-color;
+    }
+
+    /* To be used for the page title, i.e About or Welcome or Home, etc */
+    .grid-header .page-title{
+        font-size: 4vmin;
+        font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */
+        color: $page-title-color;
+    }
+
+    /* To be used for page subtitle, for example a prologue type thingy for blog posts */
+    .grid-header .page-subtitle{
+        font-size: 2vmin;
+        font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */
+        color: $page-subtitle-color;
+    }
+
+    /* The following removes the underline from links and makes them the same color as defined by their parent element */
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .grid-content h1{
+        color: $page-title-background-default;
+        font-size: 2vmin;
+    }
+
+    .grid-content {
+        font-size: 1vmin;
+    }
+
+    .posting-date{
+        color: $dim-gray;
+    }
+
+    .tags-list{
+        color: $dim-gray;
+        font-size: 1vmin;
+    }
+
+    .image-credit{
+        color: $dim-gray;
+        font-size: 0.5vmin;
+    }
+
+    .feed-title{
+        font-size: 2vmin;
+    }
+
+    .feed-description{
+        font-size: 1vmin;
+    }
+}
