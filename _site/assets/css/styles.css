@@ -27,7 +27,7 @@
   100% { color: lightgray; } }
 
 /* To be used for the site title, i.e Gaurav Chandan */
-.grid-header .site-name { font-size: 2vh; /* 1.2vw */ font-family: 'Press Start 2P', cursive; color: black; background-color: #d6d6d6; }
+.grid-header .site-name { font-size: 1.2vmax; /* 1.2vw */ font-family: 'Press Start 2P', cursive; color: black; background-color: #d6d6d6; }
 
 /* To be used for the page title, i.e About or Welcome or Home, etc */
 .grid-header .page-title { font-size: 4.5vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: whitesmoke; }
