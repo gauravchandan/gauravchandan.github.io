@@ -29,10 +29,10 @@
 
 /* To use colors from colors.scss - Helps keep code clean */
 /* To be used for the site title, i.e Gaurav Chandan */
-.grid-header .site-name { font-size: 1.2vmax; /* 1.2vw */ font-family: 'Permanent Marker', cursive; color: black; }
+.grid-header .site-name { font-size: 1.5vmax; /* 1.2vw */ font-family: 'Orbitron', sans-serif; color: black; }
 
 /* To be used for the page title, i.e About or Welcome or Home, etc */
-.grid-header .page-title { font-size: 5vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: whitesmoke; }
+.grid-header .page-title { font-size: 5.5vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: whitesmoke; }
 
 /* To be used for page subtitle, for example a prologue type thingy for blog posts */
 .grid-header .page-subtitle { font-size: 3vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: lightgray; }
