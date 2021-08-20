@@ -2,21 +2,21 @@
 
 /* To be used for the site title, i.e Gaurav Chandan */
 .grid-header .site-name{
-    font-size: 1vmax;                               /* 1.2vw */
+    font-size: 1.2vmax;                               /* 1.2vw */
     font-family: 'Permanent Marker', cursive;
     color: $site-name-color;
 }
 
 /* To be used for the page title, i.e About or Welcome or Home, etc */
 .grid-header .page-title{
-    font-size: 4.5vh;
+    font-size: 5vh;
     font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */
     color: $page-title-color;
 }
 
 /* To be used for page subtitle, for example a prologue type thingy for blog posts */
 .grid-header .page-subtitle{
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */
     color: $page-subtitle-color;
 }
