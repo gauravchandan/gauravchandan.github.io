@@ -46,15 +46,15 @@
 .grid-header .site-name { font-size: 1.5vmax; /* 1.2vw */ font-family: 'Orbitron', sans-serif; color: black; }
 
 /* To be used for the page title, i.e About or Welcome or Home, etc */
-.grid-header .page-title { font-size: 6vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: whitesmoke; }
+.grid-header .page-title { font-size: 6vmin; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: whitesmoke; }
 
 /* To be used for page subtitle, for example a prologue type thingy for blog posts */
-.grid-header .page-subtitle { font-size: 3vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: lightgray; }
+.grid-header .page-subtitle { font-size: 3vmin; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: lightgray; }
 
 /* The following removes the underline from links and makes them the same color as defined by their parent element */
 a { text-decoration: none; color: inherit; }
 
-.grid-content h1 { color: #026796; font-size: 3vh; }
+.grid-content h1 { color: #026796; font-size: 3vmin; }
 
 .grid-content { font-size: 2vmin; }
 
@@ -62,7 +62,7 @@ a { text-decoration: none; color: inherit; }
 
 .tags-list { color: dimgray; font-size: 1.5vmin; }
 
-.image-credit { color: dimgray; font-size: 1.5vh; }
+.image-credit { color: dimgray; font-size: 1.5vmin; }
 
 .feed-title { font-size: 3vmin; }
 
