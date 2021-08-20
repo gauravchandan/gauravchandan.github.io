@@ -1,9 +1,11 @@
+@import "colors"; /* To use colors from colors.scss - Helps keep code clean */
+
 /* This file contains styles for various grid elements */
 
 /* Grid item for header which contains site title, dropdown menu, page title and page subtitle*/
 .grid-header{
     grid-area: header;
-    background-color: rgb(2, 103, 150);
+    background-color: $page-title-background;
 }
 
 
@@ -36,7 +38,8 @@
 
 /* To be used for the site title, i.e Gaurav Chandan */
 .grid-header .site-name{
-    box-shadow: 0 2vh 3vh rgba(0, 0, 0, 0.603);
+    background-color: $site-name-background;
+    box-shadow: 0 2vh 3vh $site-name-shadow-color;
     height: auto;
     margin: 0;
     padding: 1vh;
@@ -48,10 +51,10 @@
     /* Configuration of animation below */
     @keyframes pulse {
         0%{
-            color: rgba(245, 245, 245, 0);
+            color: $page-title-color-transparent;
         }
         100%{
-            color: whitesmoke;
+            color: $page-title-color;
         }
     }
 }
@@ -64,10 +67,10 @@
     /* Configuration of animation below */
     @keyframes pulse {
         0%{
-            color: rgba(211, 211, 211, 0);
+            color: $page-subtitle-color-transparent;
         }
         100%{
-            color: lightgray;
+            color: $page-subtitle-color;
         }
     }
 }
