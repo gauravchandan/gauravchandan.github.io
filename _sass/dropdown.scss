@@ -19,6 +19,8 @@ div .dropdown-menu-bar{
     position: absolute;
     left: auto;
     right: 50%;
+    top: 75%;
+    bottom: auto;
     display: none;
     background-color: inherit;
     color: inherit;
@@ -28,8 +30,8 @@ div .dropdown-menu-bar{
     background-color: $site-name-background;
     font-size: 1.2vmax;
     display: block;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }

@@ -69,9 +69,9 @@ a { text-decoration: none; color: inherit; }
 div .dropdown-menu-bar { margin: 0.5vh; width: 2vmax; height: 0.3vmax; background-color: black; }
 
 /* div which contains dropdown menu links */
-.dropdown-content { position: absolute; left: auto; right: 50%; display: none; background-color: inherit; color: inherit; }
+.dropdown-content { position: absolute; left: auto; right: 50%; top: 75%; bottom: auto; display: none; background-color: inherit; color: inherit; }
 
-.dropdown-content a { background-color: #d6d6d6; font-size: 1.2vmax; display: block; padding-left: 1.5vw; padding-right: 1.5vw; padding-top: 1vh; padding-bottom: 1vh; }
+.dropdown-content a { background-color: #d6d6d6; font-size: 1.2vmax; display: block; padding-left: 2.5vw; padding-right: 2.5vw; padding-top: 1vh; padding-bottom: 1vh; }
 
 @media (hover: hover) and (pointer: fine) { /* Change color of drop down menu icon upon hover*/ .dropdown-menu:hover { background-color: #adadad; } /* Display dropdown menu content upon hover*/ .dropdown-menu:hover .dropdown-content { display: block; } /* Change bgcolor of dropdown menu links upon hover */ .dropdown-content a:hover { background-color: #adadad; } }
 
