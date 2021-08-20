@@ -2,7 +2,7 @@
 
 /* This file contains styles for various grid elements */
 
-@media screen and (min-width:600px) {
+@media only screen and (min-width: 600px) {
         
     /* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
     .grid-container{
