@@ -21,16 +21,20 @@
             <!-- Top bar with site name and menu -->
             <div class="site-name">
                 <a href="index.html"><div>Gaurav Chandan</div></a>
-                <div class="dropdown-menu">
-    <div class="dropdown-menu-bar"></div>
-    <div class="dropdown-menu-bar"></div>
-    <div class="dropdown-menu-bar"></div>
-    <div class="dropdown-content">
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="about.html">About</a>
-    </div>
+                <input type="checkbox" id="click-hack">
+<div class="dropdown-menu">
+    <label for="click-hack">                    <!-- This makes the 3 bar menu icon a label, sort of a substitute, for a checkbox, which is hidden by scss. -->
+        <div class="dropdown-menu-bar"></div>   <!-- But, what the scss also does, is display the dropdown-content, when that checkbox is checked -->
+        <div class="dropdown-menu-bar"></div>   <!-- i.e when the menu icon is clicked. Hence, click-hack -->
+        <div class="dropdown-menu-bar"></div>
+        <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+        </div>
+    </label>
 </div>
+
             </div>
             <!-- Section with page title and subtitle -->
             <h1 class="page-title"><center>Oops! You seem to have lost your way.</center></h1>

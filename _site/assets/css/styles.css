@@ -73,6 +73,19 @@ div .dropdown-menu-bar { margin: 0.5vh; width: 2vmax; height: 0.3vmax; backgroun
 
 .dropdown-content a { background-color: #d6d6d6; font-size: 1.2vmax; display: block; padding-left: 2.5vw; padding-right: 2.5vw; padding-top: 1vh; padding-bottom: 1vh; }
 
-@media (hover: hover) and (pointer: fine) { /* Change color of drop down menu icon upon hover*/ .dropdown-menu:hover { background-color: #adadad; } /* Display dropdown menu content upon hover*/ .dropdown-menu:hover .dropdown-content { display: block; } /* Change bgcolor of dropdown menu links upon hover */ .dropdown-content a:hover { background-color: #adadad; } }
+/* Change color of drop down menu icon upon hover*/
+.dropdown-menu:hover { background-color: #adadad; }
+
+/* Change bgcolor of dropdown menu links upon hover */
+.dropdown-content a:hover { background-color: #adadad; }
+
+/* This hides the checkbox used in the dropdown menu click-hack */
+input[type=checkbox] { display: none; }
+
+/* Displays menu upon click using when the hidden checkbox is checked */
+input[type=checkbox]:checked ~ .dropdown-menu .dropdown-content { display: block; }
+
+/* Change color of drop down menu icon upon click*/
+input[type=checkbox]:checked ~ .dropdown-menu { background-color: #adadad; }
 
 /*# sourceMappingURL=styles.css.map */
