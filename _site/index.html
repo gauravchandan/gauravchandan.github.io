@@ -20,7 +20,7 @@
         <div class="grid-header default">
             <!-- Top bar with site name and menu -->
             <div class="site-name">
-                <a href="index.html"><div>Gaurav Chandan</div></a>
+                <a href="/index.html"><div>Gaurav Chandan</div></a>
                 <input type="checkbox" id="click-hack">
 <div class="dropdown-menu">
     <label for="click-hack">                    <!-- This makes the 3 bar menu icon a label, sort of a substitute, for a checkbox, which is hidden by scss. -->
@@ -29,9 +29,9 @@
         <div class="dropdown-menu-bar"></div>
     </label>
         <div class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="blog.html">Blog</a>
-            <a href="about.html">About</a>
+            <a href="/index.html">Home</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/about.html">About</a>
         </div>
 </div>
 
@@ -44,26 +44,40 @@
 
 
         <div class="grid-content">
-            <h1 id="home">Home</h1>
+            <br><h1 id="recent-posts">Recent posts</h1>
+                               <!-- There's actually no content, but still, just in case -->
+            <hr color="dimgray">
 
-<p><em>Italic text</em></p>
+            <!-- The following sectio creates a feed with the 10 most recent posts -->
+            
+                <div class="feed-item">
 
-<p><strong>Bold text</strong></p>
+                    <div class="feed-image">
+                        <img src=/assets/images/Dingo.png alt="">
+                    </div>
 
-<p>Math coming up:</p>
+                    <div class="feed-description">
+                        <h1><a href=/2021/08/20/SamplePost2.html>Another sample post, but with a longer title.</a></h1>
+                        <div>This is another Sample post.</div>
+                        <div class="tags-list">sampletag1,sampletag2,sampletag3</div>
+                    </div>
+                
+                </div>
+            
+                <div class="feed-item">
 
-\[\sum_{i=0}^{n}(n-1)^2\]
+                    <div class="feed-image">
+                        <img src=/assets/images/Saturn.jpg alt="">
+                    </div>
 
-<p><code class="language-plaintext highlighter-rouge">Single line code</code></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Multiline 
-    indented code
-</code></pre></div></div>
-<blockquote>
-  <p>Blockquote</p>
-</blockquote>
-
-
+                    <div class="feed-description">
+                        <h1><a href=/2021/08/18/SamplePost.html>Sample post</a></h1>
+                        <div>Sample subtitle</div>
+                        <div class="tags-list">sampletag1,sampletag2,sampletag3</div>
+                    </div>
+                
+                </div>
+            
         </div>
 
         <footer class="grid-footer">

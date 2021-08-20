@@ -29,27 +29,11 @@
         
         </div>
 
-
-        <div class="grid-content">
-            <br>{{ content }}                               <!-- There's actually no content, but still, just in case -->
-            <hr color="dimgray">
-
-            <!-- The following sectio creates a feed with the 10 most recent posts -->
-            {% for post in site.posts %}
-                <div class="feed-item">
-
-                    <div class="feed-image">
-                        <img src={{ post.cover-image }} alt="">
-                    </div>
-
-                    <div class="feed-description">
-                        <h1><a href={{ post.url }}>{{ post.title }}</a></h1>
-                        <div>{{ post.subtitle }}</div>
-                        <div class="tags-list">{{ post.tags }}</div>
-                    </div>
-                
-                </div>
-            {% endfor %}
+        <div class="grid-content post">
+            <br><div class="posting-date"><i>Posted on {{ page.posting-date }}<br>Tags: {{ page.tags }}</i></div><br><br>
+            <div class="cover-image"><img src={{ page.cover-image }} alt="Loading..."></div>
+            <div class="image-credit"><center>Image credit: {{ page.image-credit }}</center></div>
+            {{ content }}
         </div>
 
         <footer class="grid-footer">
