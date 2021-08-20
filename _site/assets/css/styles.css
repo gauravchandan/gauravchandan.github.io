@@ -33,7 +33,7 @@
 
 /* To use colors from colors.scss - Helps keep code clean */
 /* To be used for the site title, i.e Gaurav Chandan */
-.grid-header .site-name { font-size: 1.5vmax; /* 1.2vw */ font-family: 'Orbitron', sans-serif; color: black; }
+.grid-header .site-name { font-size: 1.5vmax; /* 1.2vw */ font-family: 'Corben', cursive; color: black; }
 
 /* To be used for the page title, i.e About or Welcome or Home, etc */
 .grid-header .page-title { font-size: 6vh; font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */ color: whitesmoke; }
@@ -71,7 +71,7 @@ div .dropdown-menu-bar { margin: 0.5vh; width: 2vmax; height: 0.3vmax; backgroun
 /* div which contains dropdown menu links */
 .dropdown-content { position: absolute; left: auto; right: 50%; top: 75%; bottom: auto; display: none; background-color: inherit; color: inherit; }
 
-.dropdown-content a { background-color: #d6d6d6; font-size: 1.2vmax; display: block; padding-left: 2.5vw; padding-right: 2.5vw; padding-top: 1vh; padding-bottom: 1vh; }
+.dropdown-content a { background-color: #d6d6d6; font-size: 1.2vmax; display: block; padding-left: 2.5vmax; padding-right: 2.5vmax; padding-top: 1vh; padding-bottom: 1vh; }
 
 /* Change color of drop down menu icon upon hover*/
 .dropdown-menu:hover { background-color: #adadad; }
