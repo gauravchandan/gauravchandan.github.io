@@ -1,0 +1,52 @@
+@import "colors";
+
+/* A class for the div in which the dropdown menu is placed */
+.dropdown-menu{
+    position:relative;
+    color: inherit;
+    background-color: inherit;
+}
+
+div .dropdown-menu-bar{
+    margin: 0.5vh;
+    width: 2vmax;
+    height: 0.3vmax;
+    background-color: $menu-bar-color;
+}
+
+/* div which contains dropdown menu links */
+.dropdown-content{
+    position: absolute;
+    left: auto;
+    right: 50%;
+    display: none;
+    background-color: inherit;
+    color: inherit;
+}
+
+.dropdown-content a{
+    background-color: $site-name-background;
+    font-size: 1.2vmax;
+    display: block;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+@media(hover: hover) and (pointer: fine){
+    /* Change color of drop down menu icon upon hover*/
+    .dropdown-menu:hover{
+        background-color: $menu-hover-color;
+    }
+
+    /* Display dropdown menu content upon hover*/
+    .dropdown-menu:hover .dropdown-content{
+        display: block;
+    }
+
+    /* Change bgcolor of dropdown menu links upon hover */
+    .dropdown-content a:hover{
+        background-color: $menu-hover-color;
+    }
+}
