@@ -8,7 +8,7 @@
 }
 
 div .dropdown-menu-bar{
-    margin: 0.5vh;
+    border: 0.5vmin solid $site-name-background;
     width: 2vmax;
     height: 0.3vmax;
     background-color: $menu-bar-color;
@@ -37,8 +37,8 @@ div .dropdown-menu-bar{
 }
 
 /* Change color of drop down menu icon upon hover*/
-.dropdown-menu:hover{
-    background-color: $menu-hover-color;
+.dropdown-menu:hover .dropdown-menu-bar{
+    border: 0.5vmin solid $menu-hover-color
 }
 
 
@@ -59,8 +59,8 @@ input[type=checkbox]:checked ~ .dropdown-menu .dropdown-content{
 }
 
 /* Change color of drop down menu icon upon click*/
-input[type=checkbox]:checked ~ .dropdown-menu{
-    background-color: $menu-hover-color;
+input[type=checkbox]:checked ~ .dropdown-menu .dropdown-menu-bar{
+    border: 0.5vmin solid $menu-hover-color;
 }
 
 
