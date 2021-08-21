@@ -26,6 +26,11 @@
                 <div class="image-credit"><center>Image credit: {{ page.image-credit }}</center></div>
             </div></center><br>
             {{ content }}
+
+            {% if page.comments %}
+                {% include disqus.html %}
+            {% endif %}
+
         </div>
         
         <footer class="grid-footer">

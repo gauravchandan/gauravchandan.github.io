@@ -1,11 +1,12 @@
 ---
-title: Another sample post, but with a longer title.
 layout: post
+title: Another sample post, but with a longer title.
 subtitle: This is another Sample post.
 posting-date: 18/08/21
 tags: [sampletag1, sampletag2, sampletag3]
 cover-image: /assets/images/Dingo.png
 image-credit: Taken from the internet. Unknown author.
+comments: true
 ---
 # Just another sample post
 

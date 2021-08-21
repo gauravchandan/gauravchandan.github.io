@@ -1,11 +1,12 @@
 ---
-title: Sample post
 layout: post
+title: Sample post
 subtitle: Sample subtitle
 posting-date: 18/08/21
 tags: [sampletag1, sampletag2, sampletag3]
 cover-image: /assets/images/Saturn.jpg
 image-credit: Taken from the internet. Unknown author.
+comments: true
 ---
 # Really just a sample post
 
