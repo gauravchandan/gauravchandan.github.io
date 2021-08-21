@@ -1,8 +1,9 @@
 $mobile-breakpoint: 600px; /* Not a color, but this is the only file imported in all other stylesheets, so.. */
 
+$shadow-color: rgba(0, 0, 0, 0.603);
+
 $site-name-color: black;
 $site-name-background: rgb(214, 214, 214);
-$site-name-shadow-color: rgba(0, 0, 0, 0.603);
 
 $page-title-color: whitesmoke;
 $page-title-color-transparent: rgba(245, 245, 245, 0);

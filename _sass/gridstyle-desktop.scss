@@ -42,7 +42,7 @@
         justify-content: space-between;
         align-items: center;
         background-color: $site-name-background;
-        box-shadow: 0 2vh 3vh $site-name-shadow-color;
+        box-shadow: 0 2vh 3vh $shadow-color;
         height: auto;
         margin: 0;
         padding: 1vh;
@@ -100,9 +100,11 @@
 
     .feed-item{
         display: grid;
-        /* grid-template-rows: [cover] 25% [description] 75%; */
-        grid-template-areas: "image" "description";
+        grid-template-columns: [cover] 40% [description] 60%; 
+        grid-template-areas: "image description";
         margin-top: 3vw;
+        padding: 2vw;
+        box-shadow: 1vh 0.2vh 2vh $shadow-color;
     }
 
     .feed-image{
@@ -110,11 +112,12 @@
     }
 
     .feed-image img{
-        width: 40%;
+        width: 100%;
+        height: 100%;
     }
 
     .feed-description{
         grid-area: description;
-        margin-left: 0vw;
+        margin-left: 2vw;
     }
 }
