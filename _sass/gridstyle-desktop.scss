@@ -100,7 +100,7 @@
 
     .feed-item{
         display: grid;
-        grid-template-rows: [cover] 25% [description] 75%;
+        /* grid-template-rows: [cover] 25% [description] 75%; */
         grid-template-areas: "image" "description";
         margin-top: 3vw;
     }
