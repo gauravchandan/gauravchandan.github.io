@@ -1,0 +1,114 @@
+@import "colors"; /* To use colors from colors.scss - Helps keep code clean */
+
+/* This file contains styles for various grid elements */
+
+@media only screen and (max-width: 600px) {
+        
+    /* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
+    .grid-container{
+        display: grid;
+        grid-template-columns: [left-space] 15vw [content-space] 70vw [right-space] 15vw;
+        grid-template-areas: 
+            "header header header"
+            ". content ."
+            "footer footer footer";
+        margin: 0;  /* This awesome line removes the free space automatically left on the top and sides of the grid */
+    }
+
+
+    /* Grid item which contains the main content such as the matter of a blog post or a list of blog posts on the homepage */
+    .grid-content{
+        grid-area: content;
+        background-color: white;
+        color: black;
+    }
+
+    /* Grid item for footer which contains social media links and whatnot*/
+    .grid-footer{
+        grid-area: footer;
+        background-color: rgb(196, 57, 7);
+        color: whitesmoke;
+    }
+
+    /* Grid item for header which contains site title, dropdown menu, page title and page subtitle in the default layout*/
+    .grid-header{
+        grid-area: header;
+        background-color: $page-title-background-default;
+    }
+
+
+    /* To be used for the site title, i.e Gaurav Chandan in the default layout */
+    .grid-header .site-name{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $site-name-background;
+        box-shadow: 0 2vh 3vh $site-name-shadow-color;
+        height: auto;
+        margin: 0;
+        padding: 1vh;
+    }
+
+    /* To be used for the page title, i.e About or Welcome or Home, etc in the default layout */
+    .grid-header .page-title{
+        animation: pulse 1.5s ease 1; /* Animation for slow fade in */
+        /* Configuration of animation below */
+        @keyframes pulse {
+            0%{
+                color: $page-title-color-transparent;
+            }
+            100%{
+                color: $page-title-color;
+            }
+        }
+    }
+
+    /* To be used for page subtitle, for example a prologue type thingy for blog posts in the default layout */
+    .grid-header .page-subtitle{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        animation: pulse 3s ease 1; /* Animation for slow fade in */
+        /* Configuration of animation below */
+        @keyframes pulse {
+            0%{
+                color: $page-subtitle-color-transparent;
+            }
+            100%{
+                color: $page-subtitle-color;
+            }
+        }
+    }
+
+    .default{
+        background-color: $page-title-background-default;
+    }
+
+    .about{
+        background-color: $page-title-background-about;
+    }
+
+    .cover-image img{
+        width: 70vw;
+        height: auto;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .feed-item{
+        display: grid;
+        grid-template-areas: "image" "description";
+    }
+
+    .feed-image{
+        grid-area: image;
+    }
+
+    .feed-image img{
+        width: 60%;
+    }
+
+    .feed-description{
+        grid-area: description;
+    }
+}
