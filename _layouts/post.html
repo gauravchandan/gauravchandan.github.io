@@ -32,11 +32,13 @@
 
         <div class="grid-content post">
             <br><div class="posting-date"><i>Posted on {{ page.posting-date }}<br><br>Tags: {{ page.tags | join: ', ' }}</i></div><br><br>
-            <div class="cover-image"><img src={{ page.cover-image }} alt="Loading..."></div>
-            <div class="image-credit"><center>Image credit: {{ page.image-credit }}</center></div>
+            <center><div class="cover-image">
+                <img src={{ page.cover-image }} alt="Loading...">
+                <div class="image-credit"><center>Image credit: {{ page.image-credit }}</center></div>
+            </div></center><br><br><br>
             {{ content }}
         </div>
-
+        
         <footer class="grid-footer">
             <h1>This will be a footer</h1>
         </footer>

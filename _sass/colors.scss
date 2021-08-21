@@ -1,3 +1,5 @@
+$mobile-breakpoint: 600px; /* Not a color, but this is the only file imported in all other stylesheets, so.. */
+
 $site-name-color: black;
 $site-name-background: rgb(214, 214, 214);
 $site-name-shadow-color: rgba(0, 0, 0, 0.603);
@@ -16,3 +18,7 @@ $menu-bar-color: black;
 $menu-hover-color:  rgb(173, 173, 173);
 
 $dim-gray: dimgray;
+
+$content-color: black;
+$footer-color: whitesmoke;
+

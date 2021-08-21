@@ -2,7 +2,7 @@
 
 /* This file contains styles for various grid elements */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: $mobile-breakpoint) {
         
     /* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
     .grid-container{
@@ -20,14 +20,13 @@
     .grid-content{
         grid-area: content;
         background-color: white;
-        color: black;
     }
 
     /* Grid item for footer which contains social media links and whatnot*/
     .grid-footer{
         grid-area: footer;
         background-color: rgb(196, 57, 7);
-        color: whitesmoke;
+        margin-top: 10vh;
     }
 
     /* Grid item for header which contains site title, dropdown menu, page title and page subtitle in the default layout*/
@@ -87,6 +86,10 @@
         background-color: $page-title-background-about;
     }
 
+    .cover-image{
+        width: 75%;
+    }
+
     .cover-image img{
         width: 100%;
         height: auto;
@@ -97,9 +100,9 @@
 
     .feed-item{
         display: grid;
-        grid-template-columns: [cover] 25% [description] 75%;
-        grid-template-areas: "image description";
-        margin: 5vw;
+        grid-template-rows: [cover] 25% [description] 75%;
+        grid-template-areas: "image" "description";
+        margin-top: 3vw;
     }
 
     .feed-image{
@@ -107,11 +110,11 @@
     }
 
     .feed-image img{
-        width: 100%;
+        width: 40%;
     }
 
     .feed-description{
         grid-area: description;
-        margin-left: 2vw;
+        margin-left: 0vw;
     }
 }

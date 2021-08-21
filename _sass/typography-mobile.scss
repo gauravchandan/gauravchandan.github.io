@@ -1,6 +1,6 @@
 @import "colors"; /* To use colors from colors.scss - Helps keep code clean */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: $mobile-breakpoint) {
 
     /* To be used for the site title, i.e Gaurav Chandan */
     .grid-header .site-name{
@@ -36,6 +36,11 @@
 
     .grid-content {
         font-size: 2vmax;
+        color: $content-color;
+    }
+
+    .grid-footer{
+        color: $footer-color;
     }
 
     .posting-date{
