@@ -7,6 +7,7 @@
     /* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
     .grid-container{
         display: grid;
+        background-color: $grid-container-color;
         grid-template-columns: [left-space] 17.5vw [content-space] 65vw [right-space] 17.5vw;
         grid-template-areas: 
             "header header header"
@@ -19,13 +20,13 @@
     /* Grid item which contains the main content such as the matter of a blog post or a list of blog posts on the homepage */
     .grid-content{
         grid-area: content;
-        background-color: white;
+        background-color: $grid-container-color
     }
 
     /* Grid item for footer which contains social media links and whatnot*/
     .grid-footer{
         grid-area: footer;
-        background-color: rgb(196, 57, 7);
+        background-color: $footer-background-color;
         margin-top: 10vh;
     }
 
@@ -105,6 +106,7 @@
         margin-top: 3vw;
         padding: 2vw;
         box-shadow: 1vh 0.2vh 2vh $shadow-color;
+        background-color: $feed-item-color;
     }
 
     .feed-image{
@@ -120,4 +122,11 @@
         grid-area: description;
         margin-left: 2vw;
     }
+
+    .post{
+        background-color: $post-background;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
 }

@@ -30,8 +30,9 @@
     }
 
     .grid-content h1{
-        color: $page-title-background-default;
+        color: $h1-color;
         font-size: 3vmax;
+        font-family: 'Assistant', sans-serif;
     }
 
     .grid-content {

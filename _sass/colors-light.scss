@@ -1,0 +1,30 @@
+$mobile-breakpoint: 600px; /* Not a color, but this is the only file imported in all other stylesheets, so.. */
+
+$shadow-color: rgba(0, 0, 0, 0.603);
+
+$site-name-color: black;
+$site-name-background: rgb(214, 214, 214);
+
+$page-title-color: whitesmoke;
+$page-title-color-transparent: rgba(245, 245, 245, 0);
+
+
+$page-subtitle-color: lightgray;
+$page-subtitle-color-transparent: rgba(211, 211, 211, 0);
+
+$page-title-background-default:rgb(2, 103, 150);
+$page-title-background-about: rgb(161, 62, 26);
+
+$menu-bar-color: black;
+$menu-hover-color:  rgb(173, 173, 173);
+
+$dim-gray: dimgray;
+
+$content-color: black;
+$h1-color: $page-title-background-default;
+$footer-color: #ADEFD1FF;
+$footer-background-color: #00203FFF;
+
+$grid-container-color: white;
+$feed-item-color: white;
+$post-background: white;

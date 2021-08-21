@@ -30,13 +30,14 @@
     }
 
     .grid-content h1{
-        color: $page-title-background-default;
+        color: $h1-color;
         font-size: 3.5vmin;
     }
 
     .grid-content {
         font-size: 2.25vmin;
         color: $content-color;
+        font-family: 'Assistant', sans-serif;
     }
 
     .grid-footer{
@@ -64,8 +65,10 @@
     .feed-description{
         font-size: 2vmin;
     }
-}
 
-.highlight{
-    font-size: 1.75vmin;
+    /* For code blocks */
+    .highlight{
+        font-size: 1.75vmin;
+    }
+
 }

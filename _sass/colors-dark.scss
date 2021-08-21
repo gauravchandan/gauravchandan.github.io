@@ -1,0 +1,36 @@
+$mobile-breakpoint: 600px; /* Not a color, but this is the only file imported in all other stylesheets, so.. */
+
+$shadow-color: rgba(0, 0, 0, 0.699);
+
+$site-name-color: rgb(255, 174, 0);                                                    
+$site-name-background: rgb(43, 39, 38);                                  
+
+$page-title-color: #00203FFF;                                        
+$page-title-color-transparent: rgba(255, 174, 0,0);                         
+
+
+$page-subtitle-color: #00203FFF;                                     
+$page-subtitle-color-transparent: rgba(255, 174, 0,0);                       
+
+$page-title-background-default: #ADEFD1FF;                             
+$page-title-background-about: rgb(0, 100, 0);
+
+$menu-bar-color: rgb(255, 174, 0);                                              
+$menu-hover-color:  rgb(173, 173, 173);
+
+$dim-gray: dimgray;
+
+$content-color: black;
+$h1-color: #ADEFD1FF;
+$footer-color: whitesmoke;
+$footer-background-color: rgb(36, 32, 31);
+
+$grid-container-color: #00203FFF;
+$feed-item-color: #ADEFD1FF;
+$h1-color: $page-title-background-default;
+
+/* A list of color combinations:
+
+1.Sailor Blue (#00203FFF) and Mint (#ADEFD1FF) and some purple (#BB86FC)
+
+*/
