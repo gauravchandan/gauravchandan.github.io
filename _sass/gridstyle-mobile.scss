@@ -7,7 +7,7 @@
     /* A grid container object with 2 columns on either side which take up 15% viewport width and a main one in the center with 70% viewport width */
     .grid-container{
         display: grid;
-        grid-template-columns: [left-space] 15vw [content-space] 70vw [right-space] 15vw;
+        grid-template-columns: [left-space] 7.5vw [content-space] 85vw [right-space] 7.5vw;
         grid-template-areas: 
             "header header header"
             ". content ."
@@ -98,6 +98,8 @@
     .feed-item{
         display: grid;
         grid-template-areas: "image" "description";
+        margin-top: 5vw;
+        margin-bottom: 5vw;
     }
 
     .feed-image{

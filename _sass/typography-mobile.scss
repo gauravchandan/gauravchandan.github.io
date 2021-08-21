@@ -11,14 +11,14 @@
 
     /* To be used for the page title, i.e About or Welcome or Home, etc */
     .grid-header .page-title{
-        font-size: 4vmin;
+        font-size: 4vmax;
         font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */
         color: $page-title-color;
     }
 
     /* To be used for page subtitle, for example a prologue type thingy for blog posts */
     .grid-header .page-subtitle{
-        font-size: 2vmin;
+        font-size: 2.5vmax;
         font-family: 'Bad Script', cursive; /* The included google font for page title and subtitle */
         color: $page-subtitle-color;
     }
@@ -31,11 +31,11 @@
 
     .grid-content h1{
         color: $page-title-background-default;
-        font-size: 2vmin;
+        font-size: 3vmax;
     }
 
     .grid-content {
-        font-size: 1vmin;
+        font-size: 2vmax;
     }
 
     .posting-date{
@@ -44,19 +44,19 @@
 
     .tags-list{
         color: $dim-gray;
-        font-size: 1vmin;
+        font-size: 1vmax;
     }
 
     .image-credit{
         color: $dim-gray;
-        font-size: 0.5vmin;
+        font-size: 1vmin;
     }
 
     .feed-title{
-        font-size: 2vmin;
+        font-size: 3vmax;
     }
 
     .feed-description{
-        font-size: 1vmin;
+        font-size: 1.5vmax;
     }
 }
