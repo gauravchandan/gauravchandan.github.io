@@ -26,15 +26,14 @@
                 <div class="image-credit"><center>Image credit: {{ page.image-credit }}</center></div>
             </div></center><br>
             {{ content }}
-
-            {% if page.comments %}
-                {% include disqus.html %}
-            {% endif %}
+            <br><br>
+            {% include disqus.html %}
 
         </div>
         
         <footer class="grid-footer">
-            <h1>This will be a footer</h1>
+            <div class="social-media"></div>
+
         </footer>
     </body>
 

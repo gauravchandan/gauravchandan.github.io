@@ -70,5 +70,12 @@
     .highlight{
         font-size: 1.75vmin;
     }
+        
+    /* For blockquotes */
+    blockquote{
+        color: $blockquote-color;
+        font-family: 'Give You Glory', cursive;
+        font-size: 3vmin;
+    }
 
 }

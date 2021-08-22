@@ -6,7 +6,6 @@ posting-date: 18/08/21
 tags: [sampletag1, sampletag2, sampletag3]
 cover-image: /assets/images/Dingo.png
 image-credit: Taken from the internet. Unknown author.
-comments: true
 ---
 # Just another sample post
 

@@ -131,4 +131,24 @@
         padding-right: 10vw;
     }
 
+    blockquote{
+        border-left: 0.5vw solid lightgray;
+        padding-left: 1vw;
+    }
+
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+        background-color: $footer-background-color;
+    }
+
+    .grid-footer .social-media{
+        background-color: inherit;
+    }
+    
+    .grid-footer .subscribe-form{
+        background-color: $footer-background-color;
+    }
+
 }
