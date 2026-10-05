@@ -2,7 +2,7 @@ body {
 	background: #008082;
 	font-family: sans-serif, serif, monospace;
 	font-size: 100%;
-	line-height: 1.2;
+	line-height: 1.5;
 }
 
 .wrapper, .content {
@@ -43,8 +43,8 @@ body {
 
 	.btn {
 		background: #cccccc;
-		width: 13px;
-		height: 11px;
+		width: 15px;
+		height: 15px;
 		float: right;
 		border: 2px solid;
 		border-color: #fff8ff #000000 #000000 #fff8ff;
@@ -52,23 +52,23 @@ body {
 		span {
 			font-size: 11px;
 			position: relative;
-			left: 2px;
-			top: -2px;
+			left: 3px;
+			top: -5px;
 		}
 
 		.fa-window-minimize {
 			font-size: 10px;
-			left: 1px;
+			left: 2px;
 		}
 
 		.fa-window-maximize {
 			font-size: 10px;
-			left: 1px;
+			left: 2px;
 		}
 	}
 
 	.btn_max {
-		margin: 0 3px 0 0;
+		margin: 0 1px 0 0;
 	}
 
 	.btn:active {
@@ -205,6 +205,9 @@ ul.topbar {
 	p {
 		line-height: 150%;
 		margin-bottom: 15px;
+		padding-right: 1vmax;
+		padding-left: 1vmax;
+		padding-top: 0.5vmax;
 	}
 
 	a {
