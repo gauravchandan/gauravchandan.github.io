@@ -1,11 +1,13 @@
 permalink: /:year:month:day/:title
 url: #Your url here
-baseurl: /project
+baseurl: /
 
 # variables
-name: Your Site Name
-description: Your description here
+name: Gaurav Chandan
+description: "Hello and welcome to my corner of the internet. I'm Gaurav and I like mathematics and computers. I'm currently pursuing a Master's degree in Mathematics at the Indian Institute of Science Education and Research, Pune where my present research focuses on signature methods in machine learning applied to computational finance. For more details about me or my work, please follow the links on the page. You can also reach out to me via email at gaurav.chandan(at)students.iiserpune.ac.in."
 google_verification: null
+
+
 
 
 # File management

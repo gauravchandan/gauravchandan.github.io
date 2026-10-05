@@ -1,11 +1,12 @@
 body {
 	background: #008082;
 	font-family: sans-serif, serif, monospace;
-	font-size: 13px;
+	font-size: 100%;
+	line-height: 1.2;
 }
 
 .wrapper, .content {
-	width: 800px;
+	max-width: 1500px;
 	margin: auto;
 	margin-top: 20px;
 	background: #bfb8bf;
@@ -19,15 +20,16 @@ body {
 
 	h1 {
 		color: #bfb8bf;
-		font-size: 14px;
+		font-size: 110%;
 		font-weight: bold;
+		padding: 0.2% 0;
 	}
 	
 	img {
 		float: left;
-		width: 14px;
-		height: 14px;
-		margin: 0 3px 0 0;
+		width: 1.5%;
+		height: 1.5%;
+		margin: 0 0.5% 0 0;
 	}
 }
 .post_title {
@@ -88,19 +90,22 @@ ul.topbar {
 		color: #000000;
 	}
 }
-.post_list, .tag_list, .post_content {
+.post_list, .tag_list, .post_content, .site-description {
 	background: #fff8ff;
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
 	border-color: #7f787f #fff8ff #fff8ff #7f787f;
+	padding-top: 1%;
 }
-.post_list {
-	width: 70.2%;
+.post_list, .site-description {
+	width: 67.2%;
 	margin: 0 auto;
 	min-height: 150px;
 	max-height: 150px;
 	overflow-y: scroll;
 	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
 
 	ul {
 		list-style: none;

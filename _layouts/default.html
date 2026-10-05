@@ -33,9 +33,15 @@
 			<ul id="tag-list">
 				<li><a href="/" ><img src="/assets/img/disk.png" />(C:)</a>
 			<ul>
-				{% assign tags = site.tags | sort %}
+				<!-- {% assign tags = site.tags | sort %}
 				{% for tag in tags %}
 				<li><a href="/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="/assets/img/folder.ico" />{{ tag[0] | replace:'-', ' ' }}</a></li>
+				{% endfor %} -->
+				{% assign valid_pages = site.pages | where_exp: "item", "item.title" %}
+				{% for p in valid_pages %}
+				{% unless p.title == 'Home' or p.title == '404...' %}
+					<li><a href="{{ p.url | relative_url }}"><img src="/assets/img/folder.ico" />{{ p.title }}</a></li>
+				{% endunless %}
 				{% endfor %}
 			</ul>
 				</li>
@@ -50,7 +56,7 @@
 						{% endfor %}
 					</ul>
 				{% else %}
-					{{ content }}
+					{{ page.description | default: site.description }}
 				{% endif %}
 			{% else %}
 				<ul>
