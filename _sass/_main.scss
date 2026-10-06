@@ -1,11 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
 	background: #008082;
 	font-family: sans-serif, serif, monospace;
-	font-size: 13px;
+	font-size: 15px;
+    line-height: 1.4;
 }
 
 .wrapper, .content {
-	width: 800px;
+	width: 1100px;
 	margin: auto;
 	margin-top: 20px;
 	background: #bfb8bf;
@@ -27,7 +32,8 @@ body {
 		float: left;
 		width: 14px;
 		height: 14px;
-		margin: 0 3px 0 0;
+		margin: 0 4px 0 0;
+        margin-top: 1px;
 	}
 }
 .post_title {
@@ -41,8 +47,8 @@ body {
 
 	.btn {
 		background: #cccccc;
-		width: 13px;
-		height: 11px;
+		width: 15px;
+		height: 12px;
 		float: right;
 		border: 2px solid;
 		border-color: #fff8ff #000000 #000000 #fff8ff;
@@ -50,23 +56,24 @@ body {
 		span {
 			font-size: 11px;
 			position: relative;
-			left: 2px;
-			top: -2px;
+			left: 1px;
+			top: -7px;
 		}
 
 		.fa-window-minimize {
-			font-size: 10px;
+			font-size: 9px;
 			left: 1px;
+            top: -7px;
 		}
 
 		.fa-window-maximize {
-			font-size: 10px;
+			font-size: 9px;
 			left: 1px;
 		}
 	}
 
 	.btn_max {
-		margin: 0 3px 0 0;
+		margin: 0 3px 0 3px;
 	}
 
 	.btn:active {
@@ -101,6 +108,8 @@ ul.topbar {
 	max-height: 150px;
 	overflow-y: scroll;
 	display: inline-block;
+    padding: 2%;
+    padding-top: 1%;
 
 	ul {
 		list-style: none;
@@ -134,6 +143,7 @@ ul.topbar {
 	max-height: 150px;
 	overflow-y: scroll;
 	display: inline-block;
+    padding-top: 1%;
 
 	img {
 		height: 16px;
@@ -195,6 +205,8 @@ ul.topbar {
 	margin: 0 auto;
 	overflow-y: scroll;
 	overflow-x: scroll;
+    padding-left: 2%;
+    padding-right: 2%;
 
 	p {
 		line-height: 150%;
@@ -306,7 +318,7 @@ ul.topbar {
 }
 @media only screen and (max-width: 900px) {
     .content {
-        width: 90%;
+        width: 80%;
     }
 }
 @media only screen and (max-width: 700px) {
@@ -314,7 +326,7 @@ ul.topbar {
         width: 90%;
     }
 	.post_content {
-		width: 98%;
+		width: 90%;
 	}
 }
 @media only screen and (max-width: 400px) {
