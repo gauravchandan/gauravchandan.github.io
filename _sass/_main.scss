@@ -1,12 +1,11 @@
 body {
 	background: #008082;
 	font-family: sans-serif, serif, monospace;
-	font-size: 100%;
-	line-height: 1.5;
+	font-size: 13px;
 }
 
 .wrapper, .content {
-	max-width: 1500px;
+	width: 800px;
 	margin: auto;
 	margin-top: 20px;
 	background: #bfb8bf;
@@ -20,16 +19,15 @@ body {
 
 	h1 {
 		color: #bfb8bf;
-		font-size: 110%;
+		font-size: 14px;
 		font-weight: bold;
-		padding: 0.2% 0;
 	}
 	
 	img {
 		float: left;
-		width: 1.5vmax;
-		height: 1.5vmax;
-		margin: 0 0.5% 0 0;
+		width: 14px;
+		height: 14px;
+		margin: 0 3px 0 0;
 	}
 }
 .post_title {
@@ -43,8 +41,8 @@ body {
 
 	.btn {
 		background: #cccccc;
-		width: 15px;
-		height: 15px;
+		width: 13px;
+		height: 11px;
 		float: right;
 		border: 2px solid;
 		border-color: #fff8ff #000000 #000000 #fff8ff;
@@ -52,23 +50,23 @@ body {
 		span {
 			font-size: 11px;
 			position: relative;
-			left: 3px;
-			top: -5px;
+			left: 2px;
+			top: -2px;
 		}
 
 		.fa-window-minimize {
 			font-size: 10px;
-			left: 2px;
+			left: 1px;
 		}
 
 		.fa-window-maximize {
 			font-size: 10px;
-			left: 2px;
+			left: 1px;
 		}
 	}
 
 	.btn_max {
-		margin: 0 1px 0 0;
+		margin: 0 3px 0 0;
 	}
 
 	.btn:active {
@@ -90,23 +88,19 @@ ul.topbar {
 		color: #000000;
 	}
 }
-.post_list, .tag_list, .post_content, .site-description {
+.post_list, .tag_list, .post_content {
 	background: #fff8ff;
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
 	border-color: #7f787f #fff8ff #fff8ff #7f787f;
-	padding-top: 1vmax;
 }
-.post_list, .site-description {
-	width: 67.2%;
-	max-width: 97%;
+.post_list {
+	width: 70.2%;
 	margin: 0 auto;
 	min-height: 150px;
 	max-height: 150px;
 	overflow-y: scroll;
 	display: inline-block;
-	padding-left: 1%;
-	padding-right: 1%;
 
 	ul {
 		list-style: none;
@@ -134,7 +128,7 @@ ul.topbar {
 	}
 }
 .tag_list {
-	width: 29.8%;
+	width: 28%;
 	margin: 0 auto;
 	min-height: 150px;
 	max-height: 150px;
@@ -184,11 +178,11 @@ ul.topbar {
 		padding: 1px 3px;
 	}
 	.left {
-		width: 29.4%;
+		width: 33%;
 		margin-left: 2px;
 	}
 	.right {
-		width: 68.9%;
+		width: 64%;
 		margin-right: 2px;
 	}
 }
@@ -205,9 +199,6 @@ ul.topbar {
 	p {
 		line-height: 150%;
 		margin-bottom: 15px;
-		padding-right: 1vmax;
-		padding-left: 1vmax;
-		padding-top: 0.5vmax;
 	}
 
 	a {
